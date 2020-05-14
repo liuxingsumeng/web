@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa103dd4-d74f-4c39-966e-3f994cdc9eab" name="Default Changelist" comment="" />
+    <list default="true" id="aa103dd4-d74f-4c39-966e-3f994cdc9eab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81">
-              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="216">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -35,8 +38,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="320" />
-    <option name="y" value="64" />
+    <option name="x" value="163" />
+    <option name="y" value="39" />
     <option name="width" value="1171" />
     <option name="height" value="642" />
   </component>
@@ -73,6 +76,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\web_project\webstorm\git\web" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\web_project\webstorm\git\web\pages" />
     </key>
@@ -99,12 +105,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589456805326</updated>
-      <workItem from="1589456808530" duration="1311000" />
+      <workItem from="1589456808530" duration="1821000" />
     </task>
+    <task id="LOCAL-00001" summary="qwe">
+      <created>1589464854495</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589464854495</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1311000" />
+    <option name="totallyTimeSpent" value="1821000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -116,7 +130,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="320" y="64" width="1171" height="642" extended-state="0" />
+    <frame x="163" y="39" width="1171" height="642" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24932493" />
@@ -141,11 +155,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="qwe" />
+    <option name="LAST_COMMIT_MESSAGE" value="qwe" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="216">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
