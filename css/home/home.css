@@ -53,12 +53,28 @@ html,body{
     color: #000;
     font-size: 16px;
     cursor: pointer;
+    position: relative;
     transition: all .3s;
 }
-.head_type.active{
+.head_type.active a{
     transition: all 0s;
     color: #1000ff;
-    border-bottom: 2px solid #1000ff;
+}
+.head_type.active a:after{
+    transition: all 0s;
+    display: block;
+    content: "";
+    position: absolute;
+    left: 4px;
+    bottom: 0;
+    width: 36px;
+    height: 3px;
+    background-color: #1000ff;
+    border-radius: 10px;
+    text-align: center;
+}
+.head_type a{
+    display: inline-block;
 }
 .head_h{
     height: 80px;
@@ -101,7 +117,7 @@ html,body{
     display: -webkit-flex;
     display: flex;
     align-items: center;
-    background: rgb(42, 46, 46);
+    background: rgb(60, 60, 60);
     color: #fff;
     box-sizing: border-box;
     padding: 12px;
@@ -160,7 +176,7 @@ html,body{
 /*<!--搜索列表-->*/
 .web_search_list{
     width: 100%;
-    padding: 4px;
+    padding: 12px 0 0 12px;
     box-sizing: border-box;
     display: flex;
     justify-content: flex-start;
@@ -175,10 +191,13 @@ html,body{
 }
 .model{
     padding: 12px;
+    margin: 0 12px 12px 0;
+    background-image: linear-gradient(to bottom, #c3bfc3, #8a898c);
+    border-radius: 6px;
     transition: all 1s;
 }
 .model:hover{
-    box-shadow: -1px 0px 7px 2px #b3b1b1;
+    /*box-shadow: -1px 0px 7px 2px #b3b1b1;*/
 }
 .web_search_logo{
     width: 250px;
@@ -186,6 +205,7 @@ html,body{
     display: block;
 }
 .web_search_cen{
+    color: #fff;
     padding-top: 12px;
     text-align: center;
     word-break: break-all;
