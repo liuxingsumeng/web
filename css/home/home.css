@@ -18,6 +18,7 @@ html,body{
     width: 1200px;
     max-width: 1200px;
     background: #fff;
+    transition: all .3s;
 }
 .web_head{
     width: 100%;
@@ -26,6 +27,7 @@ html,body{
     justify-content: space-between;
     flex-wrap: nowrap;
     background: #fff;
+    transition: all .3s;
 }
 .web_head_left{
     margin-right: 10px;
@@ -37,6 +39,7 @@ html,body{
     object-fit: cover;
     display: block;
     cursor: pointer;
+    transition: all .3s;
 }
 .web_head_right{
     width: 100%;
@@ -50,9 +53,10 @@ html,body{
     color: #000;
     font-size: 16px;
     cursor: pointer;
+    transition: all .3s;
 }
 .head_type.active{
-    font-weight: 600;
+    transition: all 0s;
     color: #1000ff;
     border-bottom: 2px solid #1000ff;
 }
@@ -67,12 +71,13 @@ html,body{
 .active .web_logo{
     height: 20px;
 }
-.active .head_type{
-    font-size: 12px;
-}
 .active .web_head{
     padding: 10px 50px 10px 12px;
 }
+.active .head_type{
+    font-size: 12px;
+}
+
 
 /*<!--轮播图-->*/
 .web_chart{

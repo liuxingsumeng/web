@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c211974e-3991-4661-b54f-4f69fb382d7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/common/swiper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/home/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/swiper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home/home.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
+            <state relative-caret-position="242">
+              <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
               <folding>
                 <element signature="e#2756#2964#0" />
                 <element signature="e#6643#6791#0" />
@@ -40,23 +30,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="132">
+                <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="39" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/home/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="235" column="23" selection-start-line="235" selection-start-column="23" selection-end-line="235" selection-end-column="23" />
+            <state relative-caret-position="271">
+              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
               <folding>
                 <element signature="e#92#157#0" />
-                <element signature="e#185#193#0" />
-                <element signature="e#182#399#0" />
                 <element signature="e#414#459#0" />
-                <element signature="e#469#550#0" />
                 <element signature="e#566#737#0" />
-                <element signature="e#752#774#0" />
-                <element signature="e#675#683#0" />
                 <element signature="e#872#880#0" />
+                <element signature="e#1034#1042#0" />
                 <element signature="e#1103#1205#0" />
+                <element signature="e#1260#1297#0" />
                 <element signature="e#1143#1242#0" />
-                <element signature="e#1185#1348#0" />
                 <element signature="e#831#914#0" />
                 <element signature="e#1031#1039#0" />
                 <element signature="e#1028#1113#0" />
@@ -103,9 +101,9 @@
       <find>ins-inf-news-list-r</find>
       <find>.head_type</find>
       <find>ins-inf-mark-l</find>
-      <find>headFix</find>
       <find>border-bottom</find>
       <find>border-top</find>
+      <find>headFix</find>
     </findStrings>
     <replaceStrings>
       <replace>px</replace>
@@ -118,14 +116,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/pages/home.html" />
         <option value="$PROJECT_DIR$/css/home/home.css" />
+        <option value="$PROJECT_DIR$/pages/home.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="165" />
+    <option name="x" value="136" />
+    <option name="y" value="16" />
     <option name="width" value="1668" />
     <option name="height" value="924" />
   </component>
@@ -205,7 +204,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589506995561</updated>
-      <workItem from="1589506997149" duration="15446000" />
+      <workItem from="1589506997149" duration="16723000" />
     </task>
     <task id="LOCAL-00001" summary="e">
       <created>1589507186186</created>
@@ -214,21 +213,29 @@
       <option name="project" value="LOCAL" />
       <updated>1589507186186</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第一次提交，首页">
+      <created>1589529936057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589529936058</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15446000" />
+    <option name="totallyTimeSpent" value="16723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2025417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.19715808" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.19182949" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -247,19 +254,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="e" />
-    <option name="LAST_COMMIT_MESSAGE" value="e" />
+    <MESSAGE value="第一次提交，首页" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交，首页" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="88">
-            <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -283,34 +281,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
-          <folding>
-            <element signature="e#2756#2964#0" />
-            <element signature="e#6643#6791#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/home/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="235" column="23" selection-start-line="235" selection-start-column="23" selection-end-line="235" selection-end-column="23" />
+        <state relative-caret-position="271">
+          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
           <folding>
             <element signature="e#92#157#0" />
-            <element signature="e#185#193#0" />
-            <element signature="e#182#399#0" />
             <element signature="e#414#459#0" />
-            <element signature="e#469#550#0" />
             <element signature="e#566#737#0" />
-            <element signature="e#752#774#0" />
-            <element signature="e#675#683#0" />
             <element signature="e#872#880#0" />
+            <element signature="e#1034#1042#0" />
             <element signature="e#1103#1205#0" />
+            <element signature="e#1260#1297#0" />
             <element signature="e#1143#1242#0" />
-            <element signature="e#1185#1348#0" />
             <element signature="e#831#914#0" />
             <element signature="e#1031#1039#0" />
             <element signature="e#1028#1113#0" />
@@ -331,6 +314,27 @@
             <element signature="e#1490#1498#0" />
             <element signature="e#1607#1713#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+          <folding>
+            <element signature="e#2756#2964#0" />
+            <element signature="e#6643#6791#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="132">
+            <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
