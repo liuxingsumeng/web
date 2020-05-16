@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="aa103dd4-d74f-4c39-966e-3f994cdc9eab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+=======
+    <list default="true" id="c211974e-3991-4661-b54f-4f69fb382d7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/home/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home/model.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home/img1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/img1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/index.html" afterDir="false" />
+>>>>>>> 1a3cce9c559f3b3b473405c8bb90f4f54f6bc93a
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,16 +26,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
               <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/home/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1386">
+              <caret line="96" column="81" selection-start-line="96" selection-start-column="81" selection-end-line="96" selection-end-column="81" />
+>>>>>>> 1a3cce9c559f3b3b473405c8bb90f4f54f6bc93a
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -33,19 +54,93 @@
                 <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
               </first_editor>
               <second_editor />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/recomm/recommend.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="132">
+                <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/home/home.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
+              <folding>
+                <element signature="e#92#157#0" />
+                <element signature="e#858#1006#0" />
+                <element signature="e#1344#1374#0" />
+                <element signature="e#1382#1403#0" />
+                <element signature="e#1435#1494#0" />
+                <element signature="e#1551#1588#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/common/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8734">
+              <caret line="397" column="24" selection-start-line="396" selection-start-column="2" selection-end-line="397" selection-end-column="24" />
+>>>>>>> 1a3cce9c559f3b3b473405c8bb90f4f54f6bc93a
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>../../new/images/wiki/banner1.png</find>
+      <find>swiper-slide-tid</find>
+      <find>swiper-pagination</find>
+      <find>web_head_type</find>
+      <find>rem</find>
+      <find>swiper-pagination-fraction</find>
+      <find>ins-inf-news-list-r</find>
+      <find>.head_type</find>
+      <find>ins-inf-mark-l</find>
+      <find>border-bottom</find>
+      <find>border-top</find>
+      <find>headFix</find>
+      <find>head_type</find>
+      <find>model</find>
+      <find>img1.png</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>px</replace>
+      <replace>../images/home/img1.png</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="5-15" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pages/home.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -55,14 +150,27 @@
     <option name="y" value="33" />
     <option name="width" value="1171" />
     <option name="height" value="642" />
+=======
+        <option value="$PROJECT_DIR$/pages/index.html" />
+        <option value="$PROJECT_DIR$/pages/recommend.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/css/home/home.css" />
+        <option value="$PROJECT_DIR$/pages/home/index.html" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="121" />
+    <option name="y" value="228" />
+    <option name="width" value="1668" />
+    <option name="height" value="924" />
+>>>>>>> 1a3cce9c559f3b3b473405c8bb90f4f54f6bc93a
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -73,16 +181,44 @@
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="recomm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -93,7 +229,18 @@
       <recent name="E:\web_project\webstorm\git\web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\web_project\webstorm\git\web\pages" />
+      <recent name="E:\web\git\web_adv\web\pages\recomm" />
+      <recent name="E:\web\git\web_adv\web\pages\home" />
+      <recent name="E:\web\git\web_adv\web\css\home" />
+      <recent name="E:\web\git\web_adv\web\css\common" />
+      <recent name="E:\web\git\web_adv\web\images\home" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\web\git\web_adv\web\images\home" />
+      <recent name="E:\web\git\web_adv\web\pages" />
+      <recent name="E:\web\git\web_adv\web\css\common" />
+      <recent name="E:\web\git\web_adv\web\js" />
+      <recent name="E:\web\git\web_adv\web\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -109,14 +256,15 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration>C:\Users\WDD\AppData\Roaming\Subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="aa103dd4-d74f-4c39-966e-3f994cdc9eab" name="Default Changelist" comment="" />
-      <created>1589456805326</created>
+      <changelist id="c211974e-3991-4661-b54f-4f69fb382d7b" name="Default Changelist" comment="" />
+      <created>1589506995561</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1589456805326</updated>
       <workItem from="1589456808530" duration="2374000" />
     </task>
@@ -159,14 +307,88 @@
       <window_info anchor="bottom" id="Version Control" weight="0.32874015" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" visible="true" weight="0.40748033" />
+=======
+      <updated>1589506995561</updated>
+      <workItem from="1589506997149" duration="24181000" />
+    </task>
+    <task id="LOCAL-00001" summary="e">
+      <created>1589507186186</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589507186186</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第一次提交，首页">
+      <created>1589529936057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589529936058</updated>
+    </task>
+    <task id="LOCAL-00003" summary="第2次提交，首页">
+      <created>1589531501608</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589531501608</updated>
+    </task>
+    <task id="LOCAL-00004" summary="第2次提交，首页">
+      <created>1589531578471</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589531578471</updated>
+    </task>
+    <task id="LOCAL-00005" summary="第3次提交，首页">
+      <created>1589534937753</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589534937753</updated>
+    </task>
+    <task id="LOCAL-00006" summary="第3次提交，首页">
+      <created>1589535162095</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589535162095</updated>
+    </task>
+    <task id="LOCAL-00007" summary="第3次提交，首页">
+      <created>1589535486865</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589535486865</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24181000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2025417" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49960285" visible="true" weight="0.19182949" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50039715" side_tool="true" visible="true" weight="0.19182949" />
+>>>>>>> 1a3cce9c559f3b3b473405c8bb90f4f54f6bc93a
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32677165" />
       <window_info anchor="right" id="Mongo Explorer" />
+=======
+      <window_info anchor="bottom" id="TODO" order="6" />
+>>>>>>> 1a3cce9c559f3b3b473405c8bb90f4f54f6bc93a
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -176,12 +398,21 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <MESSAGE value="qwe" />
     <option name="LAST_COMMIT_MESSAGE" value="qwe" />
+=======
+    <MESSAGE value="e" />
+    <MESSAGE value="第一次提交，首页" />
+    <MESSAGE value="第2次提交，首页" />
+    <MESSAGE value="第3次提交，首页" />
+    <option name="LAST_COMMIT_MESSAGE" value="第3次提交，首页" />
+>>>>>>> 1a3cce9c559f3b3b473405c8bb90f4f54f6bc93a
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="81">
           <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
@@ -201,6 +432,65 @@
             <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           </first_editor>
           <second_editor />
+=======
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/swiper.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common/swiper.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/recomm/recommend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="132">
+            <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8734">
+          <caret line="397" column="24" selection-start-line="396" selection-start-column="2" selection-end-line="397" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/home/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
+          <folding>
+            <element signature="e#92#157#0" />
+            <element signature="e#858#1006#0" />
+            <element signature="e#1344#1374#0" />
+            <element signature="e#1382#1403#0" />
+            <element signature="e#1435#1494#0" />
+            <element signature="e#1551#1588#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="96" column="81" selection-start-line="96" selection-start-column="81" selection-end-line="96" selection-end-column="81" />
+>>>>>>> 1a3cce9c559f3b3b473405c8bb90f4f54f6bc93a
         </state>
       </provider>
     </entry>
