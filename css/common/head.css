@@ -81,7 +81,21 @@ html,body{
 .head_h{
     height: 80px;
 }
-
+/*改变头部高度*/
+.web_head_fix.active{
+    height: 50px;
+    border-bottom: 1px solid #ebecec;
+}
+.active .web_logo{
+    width: 100px;
+    height: 20px;
+}
+.active .web_head{
+    padding: 10px 50px 10px 12px;
+}
+.active .head_type{
+    font-size: 12px;
+}
 /*底部*/
 .web_foot{
     margin-top: 12px;

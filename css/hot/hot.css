@@ -1,0 +1,25 @@
+/* 类型 */
+.hot_model_type {
+    background: #ffffff;
+    padding: 12px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.hot_model_a{
+    display: inline-block;
+    flex: 25%;
+}
+.hot_model_fix {
+    background: #ffff22;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.hot_fix_img {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+.hot_fix_sp {
+
+}

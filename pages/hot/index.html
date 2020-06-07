@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../../css/common/base.css">
     <link rel="stylesheet" type="text/css" href="../../css/common/swiper.min.css">
     <link rel="stylesheet" type="text/css" href="../../css/common/head.css">
-    <link rel="stylesheet" type="text/css" href="../../css/home/hot.css">
+    <link rel="stylesheet" type="text/css" href="../../css/hot/hot.css">
 </head>
 <body>
     <!--主体-->
@@ -35,7 +35,38 @@
         </div>
         <div class="head_h"></div>
         <!-- 内容 -->
-        
+        <div class="hot_model_type flex_row">
+            <a class="hot_model_a" href="javascript:;">
+                <div class="hot_model_fix flex_row">
+                    <img class="hot_fix_img" src="../../images/hot/icon1.png" />
+                    <span class="hot_fix_sp">最热音乐</span>
+                </div>
+            </a>
+            <a class="hot_model_a" href="javascript:;">
+                <div class="hot_model_fix flex_row">
+                    <img class="hot_fix_img" src="../../images/hot/icon1.png" />
+                    <span class="hot_fix_sp">最热音乐</span>
+                </div>
+            </a>
+            <a class="hot_model_a" href="javascript:;">
+                <div class="hot_model_fix flex_row">
+                    <img class="hot_fix_img" src="../../images/hot/icon1.png" />
+                    <span class="hot_fix_sp">最热音乐</span>
+                </div>
+            </a>
+            <a class="hot_model_a" href="javascript:;">
+                <div class="hot_model_fix flex_row">
+                    <img class="hot_fix_img" src="../../images/hot/icon1.png" />
+                    <span class="hot_fix_sp">最热音乐</span>
+                </div>
+            </a>
+            <a class="hot_model_a" href="javascript:;">
+                <div class="hot_model_fix flex_row">
+                    <img class="hot_fix_img" src="../../images/hot/icon1.png" />
+                    <span class="hot_fix_sp">最热音乐</span>
+                </div>
+            </a>
+        </div>
 
 
         <!--底部-->
@@ -65,7 +96,30 @@
     <script type="text/javascript" src="../../js/jquery.min.js"></script>
     <script type="text/javascript" src="../../js/swiper.min.js"></script>
     <script type="text/javascript">
-    
+        // 滑动 返回顶部的 隐藏显示
+        function isBackTop() {
+            var $top = $('#webBack');
+            var h = document.documentElement.scrollTop || document.body.scrollTop;
+            $top.hide();
+            if (h > 40) {
+                $top.show();
+                $("#headFix").addClass("active")
+            } else {
+                $top.hide();
+                $("#headFix").removeClass("active")
+            }
+        }
+        //滑动
+        $(window).on('scroll', isBackTop).trigger('scroll');
+        // 返回顶部
+        $("#webBack").click(function() {
+            $('body,html').animate({scrollTop: 0},500);
+            return false;
+        });
+        //切换菜单
+        $("#headNav div").on("click",function () {
+            $(this).addClass("active").siblings().removeClass("active")
+        })
     </script>
 </body>
 </html>
