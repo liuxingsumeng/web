@@ -11,161 +11,164 @@
     <link rel="stylesheet" type="text/css" href="../../css/home/home.css?v=0.1">
 </head>
 <body>
-    <!--主体-->
-    <div class="web_main">
-        <!--头部-->
-        <div id="headFix" class="web_head_fix">
-            <div class="web_head flex_row">
-                <div class="web_head_left">
-                    <img class="web_logo" src="../../images/home/logo.png" alt="logo"/>
+<!--主体-->
+<div class="web_main">
+    <!--头部-->
+    <div id="headFix" class="web_head_fix">
+        <div class="web_head flex_row">
+            <div class="web_head_left">
+                <img class="web_logo" src="../../images/home/logo.jpg" alt="logo"/>
+            </div>
+            <div id="headNav" class="web_head_right flex_row">
+                <div class="head_type">
+                    <a href="../home/index.html">首页</a>
                 </div>
-                <div id="headNav" class="web_head_right flex_row">
-                    <div class="head_type">
-                        <a href="../home/index.html">首页</a>
-                    </div>
-                    <div class="head_type active">
-                        <a href="recommend.html">推荐</a>
-                    </div>
+                <div class="head_type active">
+                    <a href="../recomm/recommend.html">推荐</a>
+                </div>
+                <div class="head_type">
+                    <a href="../hot/index.html">最热</a>
                 </div>
             </div>
-        </div>
-
-        <div class="head_h"></div>
-        <!--轮播图-->
-        <div class="web_chart">
-            <div class="swiper-container swiper-container-tid">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide swiper-slide-tid">
-                        <a href="javascript:void(0);">
-                            <img class="" src="../../images/home/img1.png" alt="img" />
-                            <div class="ins-inf-mark">
-                                <div class="ins-inf-mark-l">最热</div>
-                                <div class="ins-inf-mark-c">Add Pagination  下面分页数不用动，swiper自动计算？</div>
-                                <div class="ins-inf-mark-r">
-                                    <!-- Add Pagination  下面分页数不用动，swiper自动计算-->
-                                    <div class="swiper-pagination swiper-pagination-fraction">
-                                        <span class="swiper-pagination-current"> </span> /
-                                        <span class="swiper-pagination-total"> </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide swiper-slide-tid">
-                        <a href="javascript:void(0);">
-                            <img class="" src="../../images/home/img1.png" alt="img" />
-                            <div class="ins-inf-mark">
-                                <div class="ins-inf-mark-l">最热</div>
-                                <div class="ins-inf-mark-c">Add Pagination  下面分页数不用动，swiper自动计算？</div>
-                                <div class="ins-inf-mark-r">
-                                    <!-- Add Pagination  下面分页数不用动，swiper自动计算-->
-                                    <div class="swiper-pagination swiper-pagination-fraction">
-                                        <span class="swiper-pagination-current"> </span> /
-                                        <span class="swiper-pagination-total"> </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--搜索-->
-        <!--<div class="web_search"></div>-->
-        <!--搜索列表-->
-        <div class="web_search_list">
-            <a href="https://baijiahao.baidu.com/u?app_id=1663589624163647">
-                <div class="flex_column model">
-                    <img class="web_search_logo" src="../../images/home/logo.png"/>
-                    <span class="web_search_cen">优质作者</span>
-                </div>
-            </a>
-            <a href="javascript:;">
-                <div class="flex_column model">
-                    <img class="web_search_logo" src="../../images/home/logo.png"/>
-                    <span class="web_search_cen">标语</span>
-                </div>
-            </a>
-            <a href="javascript:;">
-                <div class="flex_column model">
-                    <img class="web_search_logo" src="../../images/home/logo.png"/>
-                    <span class="web_search_cen">标语</span>
-                </div>
-            </a>
-            <a href="javascript:;">
-                <div class="flex_column model">
-                    <img class="web_search_logo" src="../../images/home/logo.png"/>
-                    <span class="web_search_cen">标语</span>
-                </div>
-            </a>
-        </div>
-        <!--底部-->
-        <div class="web_foot">
-            <div class="flex_row">
-                <div class="flex_column web_foot_ul">
-                    <h1 class="">标题</h1>
-                    <div class="web_foot_li">网站</div>
-                </div>
-                <div class="flex_column web_foot_ul">
-                    <h1 class="">标题</h1>
-                    <div class="web_foot_li">网站</div>
-                </div>
-                <div class="flex_column web_foot_ul">
-                    <h1 class="">标题</h1>
-                    <div class="web_foot_li">网站</div>
-                </div>
-            </div>
-            <div class="web_foot_bot">广告网</div>
-        </div>
-        <!--右侧固定-->
-        <div class="web_fix">
-            <div id="webBack" class="web_back">返回顶部</div>
-            <div class="web_service">客服咨询</div>
         </div>
     </div>
-    <script type="text/javascript" src="../../js/jquery.min.js"></script>
-    <script type="text/javascript" src="../../js/swiper.min.js"></script>
-    <script type="text/javascript">
-        /*图片轮播初始化*/
-        var swiper = new Swiper('.swiper-container-tid', {
-            speed:1500,                        //切换 速度
-            spaceBetween: 50,                  /*间隔*/
-            loopAdditionalSlides: 1,  //slid 复制的个数
-            autoplay: {
-                delay: 4000,                  //切换间隔 毫秒
-                disableOnInteraction: false,  //自动切换不会停止
-            },
-            loop: true,                       //循环
-            pagination: {
-                el: '.swiper-pagination',     /*加分页*/
-                type: 'fraction',             /*分页类型*/
-            }
-        });
-        // 滑动 返回顶部的 隐藏显示
-        function isBackTop() {
-            var $top = $('#webBack');
-            var h = document.documentElement.scrollTop || document.body.scrollTop;
-            $top.hide();
-            if (h > 40) {
-                $top.show();
-                $("#headFix").addClass("active")
-            } else {
-                $top.hide();
-                $("#headFix").removeClass("active")
-            }
-        }
-        //滑动
-        $(window).on('scroll', isBackTop).trigger('scroll');
-        // 返回顶部
-        $("#webBack").click(function() {
-            $('body,html').animate({scrollTop: 0},500);
-            return false;
-        });
-        //切换菜单
-        $("#headNav div").on("click",function () {
-            $(this).addClass("active").siblings().removeClass("active")
-        })
 
-    </script>
+    <div class="head_h"></div>
+    <!--轮播图-->
+    <div class="web_chart">
+        <div class="swiper-container swiper-container-tid">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide-tid">
+                    <a href="javascript:void(0);">
+                        <img class="" src="../../images/home/img1.png" alt="img" />
+                        <div class="ins-inf-mark">
+                            <div class="ins-inf-mark-l">最热</div>
+                            <div class="ins-inf-mark-c">Add Pagination  下面分页数不用动，swiper自动计算？</div>
+                            <div class="ins-inf-mark-r">
+                                <!-- Add Pagination  下面分页数不用动，swiper自动计算-->
+                                <div class="swiper-pagination swiper-pagination-fraction">
+                                    <span class="swiper-pagination-current"> </span> /
+                                    <span class="swiper-pagination-total"> </span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide swiper-slide-tid">
+                    <a href="javascript:void(0);">
+                        <img class="" src="../../images/home/img1.png" alt="img" />
+                        <div class="ins-inf-mark">
+                            <div class="ins-inf-mark-l">最热</div>
+                            <div class="ins-inf-mark-c">Add Pagination  下面分页数不用动，swiper自动计算？</div>
+                            <div class="ins-inf-mark-r">
+                                <!-- Add Pagination  下面分页数不用动，swiper自动计算-->
+                                <div class="swiper-pagination swiper-pagination-fraction">
+                                    <span class="swiper-pagination-current"> </span> /
+                                    <span class="swiper-pagination-total"> </span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--搜索-->
+    <!--<div class="web_search"></div>-->
+    <!--搜索列表-->
+    <div class="web_search_list">
+        <a href="https://baijiahao.baidu.com/u?app_id=1663589624163647">
+            <div class="flex_column model">
+                <img class="web_search_logo" src="../../images/home/model.png"/>
+                <span class="web_search_cen">优质作者</span>
+            </div>
+        </a>
+        <a href="javascript:;">
+            <div class="flex_column model">
+                <img class="web_search_logo" src="../../images/home/model.png"/>
+                <span class="web_search_cen">标语</span>
+            </div>
+        </a>
+        <a href="javascript:;">
+            <div class="flex_column model">
+                <img class="web_search_logo" src="../../images/home/model.png"/>
+                <span class="web_search_cen">标语</span>
+            </div>
+        </a>
+        <a href="javascript:;">
+            <div class="flex_column model">
+                <img class="web_search_logo" src="../../images/home/model.png"/>
+                <span class="web_search_cen">标语</span>
+            </div>
+        </a>
+    </div>
+    <!--底部-->
+    <div class="web_foot">
+        <div class="flex_row">
+            <div class="flex_column web_foot_ul">
+                <h1 class="">标题</h1>
+                <div class="web_foot_li">网站</div>
+            </div>
+            <div class="flex_column web_foot_ul">
+                <h1 class="">标题</h1>
+                <div class="web_foot_li">网站</div>
+            </div>
+            <div class="flex_column web_foot_ul">
+                <h1 class="">标题</h1>
+                <div class="web_foot_li">网站</div>
+            </div>
+        </div>
+        <div class="web_foot_bot">网站创意，欢迎交流</div>
+    </div>
+    <!--右侧固定-->
+    <div class="web_fix">
+        <div id="webBack" class="web_back">返回顶部</div>
+        <div class="web_service">客服咨询</div>
+    </div>
+</div>
+<script type="text/javascript" src="../../js/jquery.min.js"></script>
+<script type="text/javascript" src="../../js/swiper.min.js"></script>
+<script type="text/javascript">
+    /*图片轮播初始化*/
+    var swiper = new Swiper('.swiper-container-tid', {
+        speed:1500,                        //切换 速度
+        spaceBetween: 50,                  /*间隔*/
+        loopAdditionalSlides: 1,  //slid 复制的个数
+        autoplay: {
+            delay: 4000,                  //切换间隔 毫秒
+            disableOnInteraction: false,  //自动切换不会停止
+        },
+        loop: true,                       //循环
+        pagination: {
+            el: '.swiper-pagination',     /*加分页*/
+            type: 'fraction',             /*分页类型*/
+        }
+    });
+    // 滑动 返回顶部的 隐藏显示
+    function isBackTop() {
+        var $top = $('#webBack');
+        var h = document.documentElement.scrollTop || document.body.scrollTop;
+        $top.hide();
+        if (h > 40) {
+            $top.show();
+            $("#headFix").addClass("active")
+        } else {
+            $top.hide();
+            $("#headFix").removeClass("active")
+        }
+    }
+    //滑动
+    $(window).on('scroll', isBackTop).trigger('scroll');
+    // 返回顶部
+    $("#webBack").click(function() {
+        $('body,html').animate({scrollTop: 0},500);
+        return false;
+    });
+    //切换菜单
+    $("#headNav div").on("click",function () {
+        $(this).addClass("active").siblings().removeClass("active")
+    })
+
+</script>
 </body>
 </html>
