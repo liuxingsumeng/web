@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小说</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="小说">
+    <meta name="description" content="小说">
+    <link rel="icon" href="" />
+    <link rel="stylesheet" type="text/css" href="../../css/common/base.css">
+    <link rel="stylesheet" type="text/css" href="css/novel.css">
+</head>
+<body>
+    <!--主体-->
+    <div id="app">
+        <div class='about-main'>
+            <div class='about-box'>
+                <div class='about-tit'>{{title}}</div>
+                <div class='about-introduce'>
+                    <div>{{m1}}&nbsp;&nbsp;&nbsp;&nbsp;{{m2}}</div>
+                    <p>{{title1}}</p>
+                </div>
+                <div class='about-chapter'>{{chapter}}</div>
+                <div class='about-cen'>
+                    <div class='about-model centre'>
+                        <p>{{title2}}</p>
+                    </div>
+                    <div class='about-model left'>
+                        <p>{{p1}}</p>
+                    </div>
+                    <div class='about-model right'>
+                        <p>{{p2}}</p>
+                    </div>
+                    <div class='about-model centre'>
+                        <p>{{title2}}</p>
+                    </div>
+                    <div class='about-model left'>
+                        <p>{{p1}}</p>
+                    </div>
+                    <div class='about-model right'>
+                        <p>{{p2}}</p>
+                    </div>
+                    <div class='about-model centre'>
+                        <p>{{title2}}</p>
+                    </div>
+                    <div class='about-model left'>
+                        <p>{{p1}}</p>
+                    </div>
+                    <div class='about-model right'>
+                        <p>{{p2}}</p>
+                    </div>
+                </div>
+                <div class='about-foot-main'>
+                    <div class='previous-page'>上一页</div>
+                    <div class='next-page'>下一页</div>
+                </div>
+                <div class="about-tip" :class="{ hides: tipActive }" @click="aboutTip()">
+                    点击进入上次浏览的页面
+                </div>
+                <div class="about-pos" :class="{ hides: posActive }">
+                    上次浏览到了这里
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--js-->
+    <script type="text/javascript" src="js/vue.min.js"></script>
+    <script type="text/javascript">
+        new Vue({
+            el: '#app',
+            data: {
+                tipActive:false, // 是否显示 提示
+                posActive: false, // 是否显示 浏览位置
+                timeFun:'', // 定时器 提示
+                timeFun1:'', // 定时器 浏览位置
+                title: '夜灵犀传奇之邪剑黑曜',
+                m1: '我的马儿子，我永远是你爹爹！',
+                m2: '---六耳',
+                title1: '简介：这江湖沉寂了二十余年，终于被一位少年打破！',
+                chapter: '第一回 群雄并起',
+                title2: '十年前。。。',
+                p1: '夜灵犀说：爱你在心口难开！',
+                p2: '苏晚说：那就给老娘闭嘴！',
+            },
+            mounted() {
+                // 进入页面提示 提示
+                this.initTip()
+                // 进入页面提示 浏览位置
+                this.initPosTip()
+                // 初始位置
+                this.initPos()
+            },
+            destroyed(){
+                // 清除定时器 提示
+                clearInterval(this.timeFun)
+                // 清除定时器 浏览位置
+                clearInterval(this.timeFun1)
+            },
+            methods: {
+                // 提示
+                aboutTip(){
+                    alert('tip')
+                    // 清除定时器
+                    clearInterval(this.timeFun)
+                },
+                // 进入页面提示
+                initTip(){
+                    this.timeFun=setTimeout(()=>{
+                        this.tipActive=true
+                    },5000)
+                },
+                // 位置提示
+                initPosTip(){
+                    this.timeFun1=setTimeout(()=>{
+                        this.posActive=true
+                    },3000)
+                },
+                // 初始位置
+                initPos() {
+                    let top = (document.body.scrollTop || document.documentElement.scrollTop || window.pageXOffset)
+                    // console.log(top)
+                    // document.body.scrollTop=200
+                }
+            }
+        })
+    </script>
+</body>
+</html>
